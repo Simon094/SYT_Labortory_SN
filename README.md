@@ -72,7 +72,7 @@
 - Abbildung und Virtualisierung von Netzwerkkomponenten:
   - Switches, Router, Firewalls usw.
 
-*Stunde 2**
+# WP01
 ---
  
 Beantwortung von 7 Fragen (WP1 - Betriebssystem Pre-Check). Insgesamt 7/7 richtig.
