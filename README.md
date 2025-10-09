@@ -118,6 +118,17 @@ Beantworten Sie diese Fragestellungen in Ihrer Markdown Dokumentation.
 ## Fazit
 Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnötige Apps, dafür mit vielen Admin-Tools, die in der Desktopversion fehlen.
 
-WP02 DHCP
+# WP02 DHCP
 
-Aufgabenstellung: Konfiguration eines DHCP im Server SRV
+- **Aufgabenstellung 1:** Konfiguration eines DHCP im Server syt-srv01
+  - 15 eingeben um PowerShell zu aktivieren
+  - Instalation des DHCP-Servers
+  - Konfiguration des Default Gateway
+  - Erstellung/Konfiguration des DNS-Servers
+  - Am Ende zur Überprüfung das alles funktioniert hat, gibt man bei server "syt-man01" ipconfig /renew ein und danach sollte es die richtige IPv4-Adresse anzeigen:![alt text](grafik.png)
+
+- **Aufgabenstellung 2:** Konfiguration eines Managament Servers
+  - In Server man01 unter dem Register Manage die DHCP-Tools hinzufügen
+  - Danach auf Add Server, unter DNS den Server syt-02 suchen
+  - Server hinzufügen, danach unter All Servers sollte es so aussehen:
+  ![alt text](grafik-1.png)
