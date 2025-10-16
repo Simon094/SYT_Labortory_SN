@@ -132,3 +132,53 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
   - Danach auf Add Server, unter DNS den Server syt-02 suchen
   - Server hinzufügen, danach unter All Servers sollte es so aussehen:
   ![alt text](grafik-1.png)
+
+# Unterrericht 16.10.2025
+
+- **Active Directory**
+
+  - Verzeichnisdienst
+
+  - 4 technische Komponenten:
+
+    - LDAP (Lightweight Directory Access Protocol)
+    - Kerberos (griechisch, für Authentifizierung)
+    - SMB (Server Message Block)
+    - DNS Domain Name System
+
+  - Drei Bestandteile:
+
+    - Schema (beschreibt alle möglichen Einträge(Schablone))
+    - Konfiguration (beschreibt die Gesamtstruktur (Bäume))
+    - Domain (beinhaltet Informationen zu sich selbst und allen Objekten)
+  - Hierarchische Struktur
+
+  - OU (Organisational Unit) als Gruppierungsmethode
+
+  - Objekte:
+    - Ressourcen
+    - Konten:
+
+      - Benutzer
+      - Gruppe
+      - Computer
+      - Dienst
+
+  - Alle Informationen befinden sich in einer Datenbank:
+
+    - synchronisiert
+
+  - Domain Controller (DC)
+
+  - Gesamtstruktur (Forest): 
+    - ![alt text](Unbenannt.png)
+    - Directories 
+    - Domänen
+    - Standorte
+
+# WP03 Active Dircrory
+
+- Instalation des Active Directory am syt-srv01
+- Promotion des syt-srv01 zum Domain Controller
+
+
