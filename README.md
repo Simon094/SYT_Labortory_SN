@@ -181,4 +181,9 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 - Instalation des Active Directory am syt-srv01
 - Promotion des syt-srv01 zum Domain Controller
 
+**Umsteigen auf Hyper VM**
+
+- Da Virtual Box nicht funktioniert hat, steigen wir auf Hyper V um und erstellen einen neuen syt-srv01
+- Alle erforderliche schritte wiederholen und hoffen, das es funktioniert
+
 
