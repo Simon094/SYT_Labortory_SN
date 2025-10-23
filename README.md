@@ -186,4 +186,17 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 - Da Virtual Box nicht funktioniert hat, steigen wir auf Hyper V um und erstellen einen neuen syt-srv01
 - Alle erforderliche schritte wiederholen und hoffen, das es funktioniert
 
+# Unterricht 23.10.2025
+
+# WP04
+
+- Instalation von syt-srv02, syt srv-pc01 wie auch syt-man01
+- Instalationen beibehalten
+- Änderungen: srv02 und man01 haben die gleichen Einstellungen, bei pc01 wurden ISO-Datei und TMP geändert
+- Folgendes soll nach Konfiguration des man01 und srv02 stehen (bsp. man01):
+![alt text](grafik-2.png)
+- Zum testen klickt man auf den Namen, sucht nach syt.internal und folgendes sollte kommen:
+![alt text](grafik-3.png)
+(restart notwendig)
+- Domäne bei allen drei auf syt.internal und namen jeweils ändern
 
