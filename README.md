@@ -188,8 +188,6 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 # Unterricht 23.10.2025
 
-# WP04
-
 - Instalation von syt-srv02, syt srv-pc01 wie auch syt-man01
 - Instalationen beibehalten
 - Änderungen: srv02 und man01 haben die gleichen Einstellungen, bei pc01 wurden ISO-Datei und TMP geändert
@@ -205,3 +203,16 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 - Domäne bei allen drei auf syt.internal und namen jeweils ändern
 
+- Folgende Konfigurationen bei man01:
+
+![alt text](grafik-4.png)
+
+- syt-srv01 bei man01 hinzufügen bzw. man01 managed srv01:
+
+![alt text](grafik-5.png)
+
+## **DHCP Optionen des syt-man1**
+
+- Die DHCP Optionen bieten viele verschiedene Funktionen, finden tut man diese unter DHCP - DHCP Manager:
+
+![alt text](grafik-6.png)
