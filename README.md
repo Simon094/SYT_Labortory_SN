@@ -178,7 +178,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 # WP03 Active Dircrory
 
-- Instalation des Active Directory am syt-srv01
+- Insterlation des Active Directory am syt-srv01
 - Promotion des syt-srv01 zum Domain Controller
 
 **Umsteigen auf Hyper VM**
@@ -188,8 +188,8 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 # Unterricht 23.10.2025
 
-- Instalation von syt-srv02, syt srv-pc01 wie auch syt-man01
-- Instalationen beibehalten
+- Insterlation von syt-srv02, syt srv-pc01 wie auch syt-man01
+- Insterlaionen beibehalten
 - Änderungen: srv02 und man01 haben die gleichen Einstellungen, bei pc01 wurden ISO-Datei und TMP geändert
 - Folgendes soll nach Konfiguration des man01 und srv02 stehen (bsp. man01):
 
@@ -216,3 +216,13 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 - Die DHCP Optionen bieten viele verschiedene Funktionen, finden tut man diese unter DHCP - DHCP Manager:
 
 ![alt text](grafik-6.png)
+
+## **Active Directory Users and Computers**
+
+- Gleich wie bei DHCP Option gibt es hier einige Informationen über die Users wie auch die Computers:
+
+![alt text](grafik-7.png)
+
+- Also Übung haben wir die Server man01 und srv02 von Computers in dem von uns erstellten OU Servers gedragt und gedroppt:
+
+![alt text](grafik-8.png)
