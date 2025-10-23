@@ -194,9 +194,14 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 - Instalationen beibehalten
 - Änderungen: srv02 und man01 haben die gleichen Einstellungen, bei pc01 wurden ISO-Datei und TMP geändert
 - Folgendes soll nach Konfiguration des man01 und srv02 stehen (bsp. man01):
+
 ![alt text](grafik-2.png)
+
 - Zum testen klickt man auf den Namen, sucht nach syt.internal und folgendes sollte kommen:
+
 ![alt text](grafik-3.png)
+
 (restart notwendig)
+
 - Domäne bei allen drei auf syt.internal und namen jeweils ändern
 
