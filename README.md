@@ -226,3 +226,9 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 - Also Übung haben wir die Server man01 und srv02 von Computers in dem von uns erstellten OU Servers gedragt und gedroppt:
 
 ![alt text](grafik-8.png)
+
+**Begrifflichkeiten:**
+
+  - Identifikation -> Wer?
+  - Authentifikation -> Eindeutiges Wer?
+  - Autorisierung: -> Was darf er machen?
