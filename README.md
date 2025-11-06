@@ -248,3 +248,6 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 - Bei syt-pc01 mit dem bereits erstellten User (unter People) anmelden (System - About - Domain or workgroup):
 ![alt text](grafik-13.png)
+
+- Unter User - Account kann man verschieden Sachen einstellen, wie z.B. den Account sprerren:
+![alt text](grafik-14.png)
