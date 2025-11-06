@@ -242,3 +242,9 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 - Erstellen von OUs (Departments) in Ressources und Peoples
 ![alt text](grafik-11.png)
+
+- Erstellen der einzelnen Departments laut Vorgabe:
+![alt text](grafik-12.png)
+
+- Bei syt-pc01 mit dem bereits erstellten User (unter People) anmelden (System - About - Domain or workgroup):
+![alt text](grafik-13.png)
