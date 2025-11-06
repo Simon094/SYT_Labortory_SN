@@ -232,3 +232,13 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
   - Identifikation -> Wer?
   - Authentifikation -> Eindeutiges Wer?
   - Autorisierung: -> Was darf er machen?
+
+# Unterricht 6.11.2025
+
+- Hinzufügen eines Alias Server im DNS-Manager unter syt-man01:
+![alt text](grafik-10.png)
+
+# WP03b Active Directory
+
+- Erstellen von OUs (Departments) in Ressources und Peoples
+![alt text](grafik-11.png)
