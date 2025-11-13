@@ -251,3 +251,29 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 - Unter User - Account kann man verschieden Sachen einstellen, wie z.B. den Account sprerren:
 ![alt text](grafik-14.png)
+
+# Unterricht 13.11.2025
+
+ ## **Powershell-Scripting**
+
+ - interpretiert
+ - TUI
+ - .ps1
+ - Textdateien
+ - ISE (Sollte man nicht verwenden)
+ - Inhalt:
+      - Commandlets
+      - Strukturen:
+        - Verzweigungen
+        - Schleifen
+        - Funktionen
+      - Kommentare
+
+  ### **Aufgabenstellung:**
+    
+ #### WP 3c Powershell:
+  - Script zur Usererzeugung
+     - CSV
+     - Excel
+     - Anlegen von OUs (was passiert, wenn sie bereits existieren?)
+     
