@@ -277,3 +277,13 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
      - Excel
      - Anlegen von OUs (was passiert, wenn sie bereits existieren?)
      
+# Unterricht 27.11.2025
+
+  ## **File Server**
+
+  - Über den man01-srv den Server srv02 managen bzw. folgender Befehl: "GetWindowsFeature -ComputerName syt-srv02", danach sollten viele Informationen über den Server "aufpoppen"
+
+  - Folgende WindowsFeatures instalieren:
+    - FS-Fileserver
+    - FS-Data-Deduplication
+    - FS-Resource-Manager
