@@ -287,3 +287,10 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
     - FS-Fileserver
     - FS-Data-Deduplication
     - FS-Resource-Manager
+
+  - Instalieren folgender Features unter man01:
+    - Unter syt-srv02: File Server Ressource Manager
+    - Unter syt-man01: File Service Tools
+
+  - File and Storage Services:
+    - Features wie Volumes oder Disks
