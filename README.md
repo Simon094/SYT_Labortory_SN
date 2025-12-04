@@ -294,3 +294,17 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
   - File and Storage Services:
     - Features wie Volumes oder Disks
+
+# Unterricht 04.12.2025
+
+## **File-Sharing**
+
+- Unter Properties eines (bspw.) Ordners kann man unter Sharing den Ornder teilen. Dabei gibt es auch advanced sharing, wo man die Rechte einstellen kann. Diese Rechte unterscheidet man nicht nur in Personen wie z.B. user oder group, sondern auch was diese Person ausführen kann.
+- Zu den Rechten der Personen gehöhren:
+  - read
+  - write
+  - execute
+  - modify
+  - list folder imformation
+
+- Jede Freigabe die ein $ Zeichen im Pfad beim teilen hat, wird versteckt weitergegeben.
