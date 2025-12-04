@@ -75,9 +75,9 @@
 # WP01
 ---
  
-Beantwortung von 7 Fragen (WP1 - Betriebssystem Pre-Check). Insgesamt 7/7 richtig.
+Beantwortung von 7 Fragen (WP1 - Betriebssystem Pre-Check).
  
-Weitere beantwortung von 8 Fragen (WP 1 - Virtualisierung Exit-Check). Insgesamt 6/8 richtig.
+Weitere beantwortung von 8 Fragen (WP 1 - Virtualisierung Exit-Check).
  
  
 ### Aufgabenstellung 25.09.2025
@@ -314,3 +314,12 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 - Die folgenden Festplatten wurden zum srv01 hinzugefüft: Data und Backup. 
 - Auf dem man01 wurden dann beide Festplatten erstmal online gestellt, danach wurden sie inizialisiert und zuletzt wurden beiden eine jeweilige Volume hinzugefügt
+
+## Verschiebung der Festplatten
+
+- Die zwei Festplatten von srv01 auf srv02 verschieben. Dafür muss man sie einfach bei srv01 entfernen und bei srv02 hinzufügen (auf Durchsuchen klicken und dann die richtige Disk auswählen)
+
+## Shares
+
+- Unter dem Register Shares (Unter Disks und Volumes) kann man seine erstellten Ordner (in dem Fall backup) teilen an einen anderen Server (srv02):
+![alt text](grafik-15.png) 
