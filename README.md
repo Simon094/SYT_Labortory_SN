@@ -305,6 +305,12 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
   - write
   - execute
   - modify
-  - list folder imformation
+  - list folder content
+  - etc.
 
 - Jede Freigabe die ein $ Zeichen im Pfad beim teilen hat, wird versteckt weitergegeben.
+
+## Hinzufügen zweier Festplatten auf syt-syr01
+
+- Die folgenden Festplatten wurden zum srv01 hinzugefüft: Data und Backup. 
+- Auf dem man01 wurden dann beide Festplatten erstmal online gestellt, danach wurden sie inizialisiert und zuletzt wurden beiden eine jeweilige Volume hinzugefügt
