@@ -335,3 +335,12 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 - Quota einrichten.
 
 - Data Deduplication einrichten und testen
+
+- Ausführung:
+
+  - Freigegebener Ordner: "Rechteordner" mit zwei Groups (GG_IT, GG_Marketing als Beispiel) GG_IT hat nur Schreib-Leserechte und GG_Marketing hat nur Leserechte.
+
+  - Filebox mit dem selben Prinzip einrichten, dann die Rechte anpassen
+
+  - Auf einen geshareten Ordner Rechtsklick, Configurate Quota, einen Speicher einstellen und fertig, dann sollte so ein Fenster kommen:
+  ![alt text](grafik-16.png)
