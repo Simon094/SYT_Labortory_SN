@@ -323,3 +323,15 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 - Unter dem Register Shares (Unter Disks und Volumes) kann man seine erstellten Ordner (in dem Fall backup) teilen an einen anderen Server (srv02):
 ![alt text](grafik-15.png) 
+
+# Unterricht 11.12.2025
+
+## Freigaben - Teil 2:
+
+- Freigegebener Ordner, bei dem eine Gruppe Schreib- und Leserechte, eine andere nur Leserechte hat.
+
+- "Filebox" einrichten - Freigegebener Ordner, in dem eine Gruppe nur Schreibrechte und keine Leserechte hat (und eine andere Gruppe alle Rechte hat)
+
+- Quota einrichten.
+
+- Data Deduplication einrichten und testen
