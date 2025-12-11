@@ -340,7 +340,10 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
   - Freigegebener Ordner: "Rechteordner" mit zwei Groups (GG_IT, GG_Marketing als Beispiel) GG_IT hat nur Schreib-Leserechte und GG_Marketing hat nur Leserechte.
 
-  - Filebox mit dem selben Prinzip einrichten, dann die Rechte anpassen
+  - Filebox mit dem selben Prinzip einrichten, dann die Rechte anpassen, Zugriff bei GG_IT(Nur Schreibrechte) sollte verweigert werden:
+  ![alt text](grafik-17.png)
 
   - Auf einen geshareten Ordner Rechtsklick, Configurate Quota, einen Speicher einstellen und fertig, dann sollte so ein Fenster kommen:
   ![alt text](grafik-16.png)
+
+  - Unter Volumes die Data Volume auswählen, dann configurate Data Deduplication, die jeweilige Zeit und den jewiligen Tag einstellen an dem deduplication stattfinden soll und überprüfen ob es funktioniert (versuchen ein Duplikat einer Datei anzulegen)
