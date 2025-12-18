@@ -347,3 +347,17 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
   ![alt text](grafik-16.png)
 
   - Unter Volumes die Data Volume auswählen, dann configurate Data Deduplication, die jeweilige Zeit und den jewiligen Tag einstellen an dem deduplication stattfinden soll und überprüfen ob es funktioniert (versuchen ein Duplikat einer Datei anzulegen)
+
+# Unterricht 18.12.2025
+
+## Backups
+
+- Auf den syt-man01 unter Add Roles and Features, das Feature Windows Server Backup instalieren
+- Danach kann mann im Hauptmenü unter Tools in Windows Server Backup reingehen, das Menü schaut wie folgt aus:
+  ![alt text](grafik-18.png)
+
+- Backups: Man unterscheidet zwischen halben und vollen Backups, sie sollte nicht da gespeichert werden wo die Originaldatei anliegt, sind notwendig für das Sichern der Datei
+
+- Unter Local Backup, backup Schedule, kann mann verschieden konfigurationen vornehmen, darunter auch das recovern (als Beispiel):
+  ![alt text](grafik-19.png)
+
