@@ -352,7 +352,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 ## **Backups**
 
-- Auf den syt-man01 unter Add Roles and Features, das Feature Windows Server Backup instalieren
+- Auf den syt-man01 unter Add Roles and Features, das Feature Windows Server Backup installieren
 - Danach kann mann im Hauptmenü unter Tools in Windows Server Backup reingehen, das Menü schaut wie folgt aus:
   ![alt text](grafik-18.png)
 
@@ -371,4 +371,11 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 ### Windows Server Update Service
 
 ![alt text](WSUS.png)
+
+- Arbeitsauftrag:
+  - Neuen Server syt-srv03 erstellen (als managament Server)
+  - Dem Server eine zweite Festplatte und eine zweite Netzwerkkarte mit Default Switch hinzufügen
+  - Windows auf dem Server aufsetzten
+  - WSUS durch die Dokumentation aufsetzen bzw. installieren:
+    https://learn.microsoft.com/de-de/windows-server/administration/windows-server-update-services/deploy/1-install-the-wsus-server-role?tabs=server-manager
 
