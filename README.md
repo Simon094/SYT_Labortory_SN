@@ -310,7 +310,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 - Jede Freigabe die ein $ Zeichen im Pfad beim teilen hat, wird versteckt weitergegeben.
 
-## Hinzufügen zweier Festplatten auf syt-syr01
+## Hinzufügen zweier Festplatten auf syt-srv01
 
 - Die folgenden Festplatten wurden zum srv01 hinzugefüft: Data und Backup. 
 - Auf dem man01 wurden dann beide Festplatten erstmal online gestellt, danach wurden sie inizialisiert und zuletzt wurden beiden eine jeweilige Volume hinzugefügt
@@ -319,7 +319,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 - Die zwei Festplatten von srv01 auf srv02 verschieben. Dafür muss man sie einfach bei srv01 entfernen und bei srv02 hinzufügen (auf Durchsuchen klicken und dann die richtige Disk auswählen)
 
-## Shares
+## **Shares**
 
 - Unter dem Register Shares (Unter Disks und Volumes) kann man seine erstellten Ordner (in dem Fall backup) teilen an einen anderen Server (srv02):
 ![alt text](grafik-15.png) 
@@ -350,7 +350,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 # Unterricht 18.12.2025
 
-## Backups
+## **Backups**
 
 - Auf den syt-man01 unter Add Roles and Features, das Feature Windows Server Backup instalieren
 - Danach kann mann im Hauptmenü unter Tools in Windows Server Backup reingehen, das Menü schaut wie folgt aus:
@@ -358,6 +358,17 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 - Backups: Man unterscheidet zwischen halben und vollen Backups, sie sollte nicht da gespeichert werden wo die Originaldatei anliegt, sind notwendig für das Sichern der Datei
 
-- Unter Local Backup, backup Schedule, kann mann verschieden konfigurationen vornehmen, darunter auch das recovern (als Beispiel):
+- Backup Arbeitsauftrag:
+  - Unter Local Backup, backup Schedule, kann mann verschieden konfigurationen vornehmen, darunter auch das recovern (als Beispiel):
   ![alt text](grafik-19.png)
+
+- GPO (Group Policy Object)
+  - Energieverwaltung (sleep time >= 30)
+
+# Unterricht 08.01.2026
+
+## WSUS
+### Windows Server Update Service
+
+![alt text](WSUS.png)
 
