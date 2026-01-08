@@ -378,4 +378,6 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
   - Windows auf dem Server aufsetzten
   - WSUS durch die Dokumentation aufsetzen bzw. installieren:
     https://learn.microsoft.com/de-de/windows-server/administration/windows-server-update-services/deploy/1-install-the-wsus-server-role?tabs=server-manager
+  - Danach fügt man dem WSUS Windows 11 und Microsoft Defender Antivirus zu den features hinzu
+  - Als nächsten Schritt sychronisiert man unter Update Service
 
