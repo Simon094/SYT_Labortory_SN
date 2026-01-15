@@ -381,3 +381,14 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
   - Danach fügt man dem WSUS Windows 11 und Microsoft Defender Antivirus zu den features hinzu
   - Als nächsten Schritt sychronisiert man unter Update Service
 
+# Unterricht 15.01.2026
+
+## WSUS Configurate/Proof if it works
+
+- Arbeitsauftrag:
+  - Group Policy Management unter Tools unter Features hinzugefügt
+  - Neue GPO im srv-03 angelegt
+  - Folgende Konfigurationen vorgenommen:
+    - Um die folgenden policy settings zu finden folgt man den schritten auf folgender website: https://learn.microsoft.com/de-de/windows-server/administration/windows-server-update-services/deploy/4-configure-group-policy-settings-for-automatic-updates#supplemental-information
+    - Specify intranet Microsoft update service location: http://wsus.syt.internal:8530 hintugefügt und davor Enabeld
+    - Specify source service for specific classes of Windows Updates: Enabeld
