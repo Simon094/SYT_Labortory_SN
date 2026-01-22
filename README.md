@@ -392,3 +392,14 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
     - Um die folgenden policy settings zu finden folgt man den schritten auf folgender website: https://learn.microsoft.com/de-de/windows-server/administration/windows-server-update-services/deploy/4-configure-group-policy-settings-for-automatic-updates#supplemental-information
     - Specify intranet Microsoft update service location: http://wsus.syt.internal:8530 hintugefügt und davor Enabeld
     - Specify source service for specific classes of Windows Updates: Enabeld
+
+# Unterricht 22.01.2026
+
+## Task Scheduler
+
+- Der Task Scheduler befindedt sich auf dem Windows Betriebssystem bereits schon instaliert, man findet ihn unter "Task Scheduler" in der Suchleiste
+- Arbeitsauftrag:
+  - Erstellung einer Basic Task, dafür muss man im Task Scheduler Menü auf create new basic taks drücken
+  - Als Besipiel ein Programm starten, msg für message und * Hallo! als die message mitgeben
+  - Dannach einen Trigger einstellen oder manuell runnen:
+  ![alt text](grafik-20.png)
