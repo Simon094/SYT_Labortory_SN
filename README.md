@@ -403,3 +403,5 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
   - Als Besipiel ein Programm starten, msg für message und * Hallo! als die message mitgeben
   - Dannach einen Trigger einstellen oder manuell runnen:
   ![alt text](grafik-20.png)
+- Nächster Auftrag:
+  - Erstellen einer GPO die über den "Task Scheduler" alle Pcs am Freitag um 20 Uhr herunterfährt
