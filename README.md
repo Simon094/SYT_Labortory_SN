@@ -73,27 +73,23 @@
   - Switches, Router, Firewalls usw.
 
 # WP01
----
+
  
-Beantwortung von 7 Fragen (WP1 - Betriebssystem Pre-Check).
+- Beantwortung von 7 Fragen (WP1 - Betriebssystem Pre-Check).
  
-Weitere beantwortung von 8 Fragen (WP 1 - Virtualisierung Exit-Check).
+- Weitere beantwortung von 8 Fragen (WP 1 - Virtualisierung Exit-Check).
  
  
 ### Aufgabenstellung 25.09.2025
----
-WP 1 - Teilaufgabenstellung 1
-VM: syt-man01
+
+- WP 1 - Teilaufgabenstellung 1
+- VM: syt-man01
  
-Sehen Sie sich im GUI von Windows Server 2025 um. In wie fern unterscheidet sich dieses von der Desktopversion von Windows?
+- Sehen Sie sich im GUI von Windows Server 2025 um. In wie fern unterscheidet sich dieses von der Desktopversion von Windows?
  
-Welche Unterschiede fallen Ihnen bei den Dienstprogrammen auf?
- 
-Beantworten Sie diese Fragestellungen in Ihrer Markdown Dokumentation.
- 
+- Welche Unterschiede fallen Ihnen bei den Dienstprogrammen auf?
  
 # Bearbeitung der Teilaufgabenstellung 1
----
  
 **VM:** `syt-man01`  
 **Thema:** Unterschiede Windows Server 2025 vs. Desktopversion (z. B. Windows 11)
