@@ -178,18 +178,18 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 # WP03 Active Dircrory
 
-- Insterlation des Active Directory am syt-srv01
+- Instalation des Active Directory am syt-srv01
 - Promotion des syt-srv01 zum Domain Controller
 
 **Umsteigen auf Hyper VM**
 
 - Da Virtual Box nicht funktioniert hat, steigen wir auf Hyper V um und erstellen einen neuen syt-srv01
-- Alle erforderliche schritte wiederholen und hoffen, das es funktioniert
+- Alle erforderliche Schritte wiederholen und hoffen, das es funktioniert
 
 # Unterricht 23.10.2025
 
-- Insterlation von syt-srv02, syt srv-pc01 wie auch syt-man01
-- Insterlaionen beibehalten
+- Instalation von syt-srv02, syt srv-pc01 wie auch syt-man01
+- Instalationen beibehalten
 - Änderungen: srv02 und man01 haben die gleichen Einstellungen, bei pc01 wurden ISO-Datei und TMP geändert
 - Folgendes soll nach Konfiguration des man01 und srv02 stehen (bsp. man01):
 
@@ -281,7 +281,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
   ## **File Server**
 
-  - Über den man01-srv den Server srv02 managen bzw. folgender Befehl: "GetWindowsFeature -ComputerName syt-srv02", danach sollten viele Informationen über den Server "aufpoppen"
+  - Über den **man01-srv den Server srv02 managen** bzw. folgender Befehl: "GetWindowsFeature -ComputerName syt-srv02", danach sollten viele Informationen über den Server "aufpoppen"
 
   - Folgende WindowsFeatures instalieren:
     - FS-Fileserver
@@ -299,7 +299,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 ## **File-Sharing**
 
-- Unter Properties eines (bspw.) Ordners kann man unter Sharing den Ornder teilen. Dabei gibt es auch advanced sharing, wo man die Rechte einstellen kann. Diese Rechte unterscheidet man nicht nur in Personen wie z.B. user oder group, sondern auch was diese Person ausführen kann.
+- Unter Properties eines (bspw.) Ordners kann man unter Sharing den Ornder teilen. Dabei gibt es auch **advanced sharing, wo man die Rechte einstellen kann.** Diese Rechte unterscheidet man nicht nur in Personen wie z.B. user oder group, sondern auch was diese Person ausführen kann.
 - Zu den Rechten der Personen gehöhren:
   - read
   - write
@@ -312,7 +312,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 ## Hinzufügen zweier Festplatten auf syt-srv01
 
-- Die folgenden Festplatten wurden zum srv01 hinzugefüft: Data und Backup. 
+- Die folgenden Festplatten wurden zum srv01 hinzugefüft: **Data und Backup.** 
 - Auf dem man01 wurden dann beide Festplatten erstmal online gestellt, danach wurden sie inizialisiert und zuletzt wurden beiden eine jeweilige Volume hinzugefügt
 
 ## Verschiebung der Festplatten
@@ -321,7 +321,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 ## **Shares**
 
-- Unter dem Register Shares (Unter Disks und Volumes) kann man seine erstellten Ordner (in dem Fall backup) teilen an einen anderen Server (srv02):
+- Unter dem Register **Shares (Unter Disks und Volumes)** kann man seine erstellten Ordner (in dem Fall backup) teilen an einen anderen Server (srv02):
 ![alt text](grafik-15.png) 
 
 # Unterricht 11.12.2025
@@ -340,7 +340,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
   - Freigegebener Ordner: "Rechteordner" mit zwei Groups (GG_IT, GG_Marketing als Beispiel) GG_IT hat nur Schreib-Leserechte und GG_Marketing hat nur Leserechte.
 
-  - Filebox mit dem selben Prinzip einrichten, dann die Rechte anpassen, Zugriff bei GG_IT(Nur Schreibrechte) sollte verweigert werden:
+  - Filebox mit dem selben Prinzip einrichten, dann die **Rechte** anpassen, Zugriff bei GG_IT(Nur Schreibrechte) sollte verweigert werden:
   ![alt text](grafik-17.png)
 
   - Auf einen geshareten Ordner Rechtsklick, Configurate Quota, einen Speicher einstellen und fertig, dann sollte so ein Fenster kommen:
@@ -352,11 +352,11 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 ## **Backups**
 
-- Auf den syt-man01 unter Add Roles and Features, das Feature Windows Server Backup installieren
+- Auf den syt-man01 unter Add Roles and Features, das Feature **Windows Server Backup** installieren
 - Danach kann mann im Hauptmenü unter Tools in Windows Server Backup reingehen, das Menü schaut wie folgt aus:
   ![alt text](grafik-18.png)
 
-- Backups: Man unterscheidet zwischen halben und vollen Backups, sie sollte nicht da gespeichert werden wo die Originaldatei anliegt, sind notwendig für das Sichern der Datei
+- Backups: Man unterscheidet zwischen **halben und vollen Backups**, sie sollte nicht da gespeichert werden wo die Originaldatei anliegt, sind notwendig für das Sichern der Datei
 
 - Backup Arbeitsauftrag:
   - Unter Local Backup, backup Schedule, kann mann verschieden konfigurationen vornehmen, darunter auch das recovern (als Beispiel):
@@ -367,13 +367,13 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 # Unterricht 08.01.2026
 
-## WSUS
+## **WSUS**
 ### Windows Server Update Service
 
 ![alt text](WSUS.png)
 
 - Arbeitsauftrag:
-  - Neuen Server syt-srv03 erstellen (als managament Server)
+  - Neuen Server **syt-srv03** erstellen (als managament Server)
   - Dem Server eine zweite Festplatte und eine zweite Netzwerkkarte mit Default Switch hinzufügen
   - Windows auf dem Server aufsetzten
   - WSUS durch die Dokumentation aufsetzen bzw. installieren:
@@ -386,7 +386,7 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 ## WSUS Configurate/Proof if it works
 
 - Arbeitsauftrag:
-  - Group Policy Management unter Tools unter Features hinzugefügt
+  - Group Policy Management unter **Tools unter Features** hinzugefügt
   - Neue GPO im srv-03 angelegt
   - Folgende Konfigurationen vorgenommen:
     - Um die folgenden policy settings zu finden folgt man den schritten auf folgender website: https://learn.microsoft.com/de-de/windows-server/administration/windows-server-update-services/deploy/4-configure-group-policy-settings-for-automatic-updates#supplemental-information
@@ -395,9 +395,9 @@ Windows Server 2025 ist auf Verwaltung und Stabilität optimiert – ohne unnöt
 
 # Unterricht 22.01.2026
 
-## Task Scheduler
+## **Task Scheduler**
 
-- Der Task Scheduler befindedt sich auf dem Windows Betriebssystem bereits schon instaliert, man findet ihn unter "Task Scheduler" in der Suchleiste
+- Der **Task Scheduler** befindedt sich auf dem Windows Betriebssystem bereits schon instaliert, man findet ihn unter "Task Scheduler" in der Suchleiste
 - Arbeitsauftrag:
   - Erstellung einer Basic Task, dafür muss man im Task Scheduler Menü auf create new basic taks drücken
   - Als Besipiel ein Programm starten, msg für message und * Hallo! als die message mitgeben
